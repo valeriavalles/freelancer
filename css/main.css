@@ -1,3 +1,189 @@
-/*
- * Estilos de tu proyecto
- */
+/*setear*/
+body{
+    outline: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+/*encabezado*/
+#contenedor {
+    outline: 1px solid red;
+    height:80px ;
+    text-transform: uppercase;
+    font-family: 'Monsetrrat';
+    background-color: #212529;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+#contenedor .title {
+    outline: 1px solid blue;
+    display: inline-block;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    left: 100px;
+    top: 26px;
+}
+.title a {
+    text-decoration: none;
+    font-size:30px;
+    font-weight: 700;
+    color:#fff;
+   
+}
+/*menu de navegacion*/
+nav {
+    outline: 1px solid yellow;
+    float: right;
+    position: relative;
+    top: 30px;   
+}
+nav .menu {
+    outline: 1px solid green;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+nav .menu li {
+    outline: 1px solid black;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+nav .menu li a {
+    outline: 1px solid red;
+    text-decoration: none;
+    color:#fff;
+    display: inline-block;
+    margin-right: 20px;
+}
+/*segundo contenedor para un segundo encabezado para mi imagen 
+y mi titulo */
+.conteiner-uno {
+    background-color: #18bc9c;
+    outline: green;
+    width: 100%;
+    height: 700px;
+    color: #fff;
+    font-family: "lato"  
+}
+.cont-imagen {
+    width: 100%;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto; 
+    padding-top: 200px;
+}
+.cont-imagen img {
+    max-width: 100%;  
+}
+.texto .titulo-prin{
+    display: block;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 800; 
+}
+.texto .parraf {
+    font-size: 30px;
+    font-weight: 300px;
+}
+/*section uno*/
+#seccion-uno {
+    outline: 2px solid green;
+    padding: 100px 0;
+    
+}
+#seccion-uno .cont-seccion{
+    outline: 2px solid red;
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto; 
+    text-transform: uppercase;
+    font-family: "Montserrat";   
+}
+.cont-seccion h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+}
+.imagenes-a {
+    padding-left: 120px;
+    text-align: center;
+}
+.imagenes-a .box>a> {
+    float: left;
+    width: 100%;  
+}
+.imagenes-a .box>a>img {
+    float: left;
+    width: 27%;
+    height: 27%;
+    margin: 15px;
+}
+/*seccion dos*/
+#seccion-dos {
+    outline: 2px solid yellow;
+    text-align: center;
+    background-color: #18bc9c;
+    font-family: "Montserrat";
+    height: 600px;
+    
+}
+.information {
+    float: left;
+    background-color: #18bc9c;
+    color: white;
+}
+.information h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.information .parrafo {
+    outline: 2px solid blue;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+}
+.button a {
+    outline: 2px solid #fff;
+    display: inline-block;
+    width: 210px;
+    height: 40px;
+    margin: 20px;
+    text-decoration:none; 
+    color:white;
+    font-size: 20px;
+    padding: 5px;
+}
+/*seccion-tres*/}
+
+#seccion-uno .contacto-u {
+    display: inline-block;
+    text-align: center;
+}
+}
+.formulario .ingreso-dato {
+    ;
+}
+
+
+
+
