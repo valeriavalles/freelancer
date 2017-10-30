@@ -52,6 +52,8 @@ nav .menu {
     margin-right: 10px;
    
 }
+
+
 nav .menu li {
     display: inline-block;
     margin: 0;
@@ -63,6 +65,9 @@ nav .menu li a {
     color:#fff;
     display: inline-block;
     margin-right: 20px;
+}
+nav .menu li a:hover {
+    color: #18bc9c;
 }
 /*segundo contenedor para un segundo encabezado para mi imagen 
 y mi titulo */
@@ -102,7 +107,7 @@ y mi titulo */
 }
 /*section uno*/
 #seccion-uno {
-    outline: 2px solid green;
+   
     padding: 100px 0;
     
 }
@@ -177,6 +182,11 @@ y mi titulo */
     font-size: 20px;
     padding: 5px;
 }
+ .button a:hover {
+     background-color: #fff;
+     color:#18bc9c;
+ }
+
 /*seccion-tres*/
 #seccion-uno {
     text-align: center;
@@ -225,7 +235,10 @@ y mi titulo */
 	justify-content: space-around;
     margin-top: 1rem;
     background-color:#18bc9c;
-    
+    width:  90px ;
+    height: 50px;
+    border-radius: 15px;
+   
 }
 
 .input {
@@ -237,26 +250,29 @@ y mi titulo */
     transition: all .5s;
     width: 600px;
     height: 100px;
-    
+    font-size: 25px;
 }
 .input text {
     size: 20px;
     font-family: inherit;
+    
 }
 
-.input:focus {
-	border-bottom: solid #18bc9c.2rem;
+input:focus{
+    border-bottom: solid #18bc9c;
 }
 
 .btn__submit {
-	width: 20%;
+	width: 100%;
 	border-bottom: none;
 	background-color: #18bc9c;
-	color: white;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
 }
 
 .btn__submit:hover {
-	background-color: #4C9ED9;
+	background-color:#18bc9c ;
 }
 /*footer*/
 .pie-pag {
